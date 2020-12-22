@@ -46,7 +46,7 @@ h5 {
 .instagram-container {
   display: grid;
   grid-template-columns: 750px 430px;
-  grid-template-rows: 132px 940px 940px 940px;
+  grid-template-rows: 132px 1100px 1100px 1100px;
   grid-template-areas: "history perfil"
                         "section-wendy sugerencias"
                         "section-nestor none"
@@ -58,10 +58,11 @@ h5 {
   grid-area: history;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  /* justify-content: space-; */
   background: white;
   border-radius: 5px;
   text-align: center;
+  overflow: auto;
 }
 .history p {
   margin: 0;
@@ -83,7 +84,6 @@ h5 {
 }
 .p-color {
   color: gray;
-;
 }
 .cambiar-perfil {
   color: #3898F3;
@@ -114,10 +114,52 @@ h5 {
 }
 .section-wendy {
   grid-area: section-wendy;
+  background: white;
+  border-radius: 8px;
+}
+.wendy-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.wendy-img {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.icons-wendy {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.icons img{
+  margin-right: 20px;
+}
+.wendy-body {
+  padding: 0 20px;
+}
+.wendy-footer {
+  display: flex;
+  gap: 5px;
+}
+.wendy-footer h6 {
+  margin: 0;
+}
+.comentar {
+  display: flex;
+  padding: 20px;
+  margin-top: 5px;
+  gap: 10px;
+}
+.comentar input {
+  border: none;
 }
 .section-nestor{
   grid-area: section-nestor;
+  background: white;
 }
 .section-josep {
   grid-area: section-josep;
+  background: white;
 }
