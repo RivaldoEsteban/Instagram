@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  background: rgb(244, 244, 244);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+h5 {
+  color: gray;
+  margin-left: 25px;
+  font-weight: 400;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+.header-container {
+  background: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.header-icons {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.button {
+  border-radius: 8px;
+  background: white;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border: 2px solid gray;
+}
+.button img {
+  /* border: 1px solid red; */
+}
+.button input {
+  border: none;
+}
+.instagram-container {
+  display: grid;
+  grid-template-columns: 750px 430px;
+  grid-template-rows: 132px 940px 940px 940px;
+  grid-template-areas: "history perfil"
+                        "section-wendy sugerencias"
+                        "section-nestor none"
+                        "section-josep none";
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.history {
+  grid-area: history;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.history p {
+  margin: 0;
+}
+.perfil {
+  grid-area: perfil;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.perfil-img {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  align-items: center;
+}
+.perfil-img p {
+  margin: 2px;
+}
+.p-color {
+  color: gray;
+;
+}
+.cambiar-perfil {
+  color: #3898F3;
+}
+.sugerencias {
+  grid-area: sugerencias;
+}
+.segerencias-flexbox {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  justify-content: space-between;
+}
+.perfil-sugerido {
+  display: flex;
+  gap: 10px;
+}
+.segerencias-flexbox h4 {
+  margin: 3px;
+}
+.segerencias-flexbox p {
+  margin: 0;
+}
+.lista {
+  display: flex;
+  gap: 20px;
+  color: gray;
+}
+.section-wendy {
+  grid-area: section-wendy;
+}
+.section-nestor{
+  grid-area: section-nestor;
+}
+.section-josep {
+  grid-area: section-josep;
+}
