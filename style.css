@@ -35,7 +35,7 @@ h5 {
   display: flex;
   align-items: center;
   height: 40px;
-  border: 2px solid gray;
+  border: 2px solid rgb(206, 205, 205);
 }
 .button img {
   /* border: 1px solid red; */
